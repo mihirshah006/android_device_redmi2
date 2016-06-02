@@ -255,6 +255,7 @@
         <data type="string"> r_rmnet_data7 </data>
         <data type="string"> r_rmnet_data8 </data>
       </list>
+
    </listitem>
 
    <!-- MSM8994 parameters -->
@@ -340,6 +341,7 @@
         <data type="string"> r_rmnet_data7 </data>
         <data type="string"> r_rmnet_data8 </data>
       </list>
+
    </listitem>
 
    <!-- DPM 2.0 parameters -->
@@ -421,6 +423,7 @@
         <data type="string"> r_rmnet_data7 </data>
         <data type="string"> r_rmnet_data8 </data>
       </list>
+
    </listitem>
 
    <!-- JOLOKIA parameters -->
