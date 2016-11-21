@@ -95,3 +95,7 @@ persist.timed.enable=true
 # WiFi
 ro.disableWifiApFirmwareReload=true
 wifi.interface=wlan0
+
+# Camera
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
