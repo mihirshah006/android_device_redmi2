@@ -111,3 +111,14 @@ persist.radio.VT_USE_MDM_TIME=0
 
 # Google assistant
 ro.opa.eligible_device=true
+
+# Hardware Info
+ro.device.chipset=Qualcomm MSM8916 Snapdragon 410
+ro.device.cpu=Quad-core 1.2 GHz Cortex-A53
+ro.device.gpu=Adreno 306
+ro.device.rear_cam=8 MP
+ro.device.front_cam=2 MP
+ro.device.screen_res=720x1280
+
+#wt88047 camera sensor list. 
+ro.camera.sensors=ov8865_q8v18a,ov2680_skuhf,ov2680_5987fhq
