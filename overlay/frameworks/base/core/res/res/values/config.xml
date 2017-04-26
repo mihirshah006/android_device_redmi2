@@ -17,7 +17,7 @@
  */
  -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist
@@ -328,14 +328,15 @@
     <bool name="config_fetch_apn_from_omh_card">false</bool>
     -->
 
-    <!-- Flag specifying whether VoLTE is available on device -->
-    <bool name="config_device_volte_available">true</bool>
+    <!-- Flag specifying whether VoLTE TTY is supported -->
+    <bool name="config_carrier_volte_tty_supported">false</bool>
+
+    <!-- Flag specifying whether VT is available on device -->
     <bool name="config_device_vt_available">true</bool>
 
-    <!-- Flag specifying whether VoLTE should be available for carrier: independent of
-         carrier provisioning. If false: hard disabled. If true: then depends on carrier
-         provisioning, availability etc -->
-    <bool name="config_carrier_volte_available">true</bool>
+    <!-- Flag specifying whether VT should be available for carrier: independent of
+        carrier provisioning. If false: hard disabled. If true: then depends on carrier
+        provisioning, availability etc -->
     <bool name="config_carrier_vt_available">true</bool>
 
     <!-- Config determines whether to update phone object when voice registration
