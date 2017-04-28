@@ -1,3 +1,6 @@
+# Device
+ro.product.device=wt88047
+
 # ActivityManager
 ro.config.max_starting_bg=8
 ro.sys.fw.use_trim_settings=true
@@ -31,7 +34,7 @@ ro.opengles.version=196608
 debug.enable.sglscale=1
 
 # FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/config
+#ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # GPS
 persist.gps.qc_nlp_in_use=0
@@ -99,10 +102,6 @@ persist.timed.enable=true
 ro.disableWifiApFirmwareReload=true
 wifi.interface=wlan0
 
-# Camera
-media.stagefright.legacyencoder=true
-media.stagefright.less-secure=true
-
 # IMS
 persist.radio.jbims=1
 persist.radio.ROTATION_ENABLE=1
@@ -110,10 +109,5 @@ persist.radio.VT_ENABLE=1
 persist.radio.VT_HYBRID_ENABLE=1
 persist.radio.VT_USE_MDM_TIME=0
 
-# Hardware Info
-ro.device.chipset=Qualcomm MSM8916 Snapdragon 410
-ro.device.cpu=Quad-core 1.2 GHz Cortex-A53
-ro.device.gpu=Adreno 306
-ro.device.rear_cam=8 MP
-ro.device.front_cam=2 MP
-ro.device.screen_res=720x1280
+# Google assistant
+ro.opa.eligible_device=true
